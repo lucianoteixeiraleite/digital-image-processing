@@ -15,7 +15,7 @@ def out_path(filename):
 
 if __name__ == "__main__":
     
-    img = cv.imread(in_path("GYA001-1.JPG"))
+    img = cv.imread(in_path("GYA001-1.JPG") )
 
     if img is None:
         sys.exit("Could not read the image.")
